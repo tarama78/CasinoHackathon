@@ -1,0 +1,159 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CAZ | Tracker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Venue Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/gmap.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="w3layouts-logo">
+							<img src="images/caz.png" style="width:200px;height:120px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom agileinfo-header-bottom">
+			<div class="container">
+				<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav">
+										<li><a href="index.html">Tracker mon produit</a></li>
+										<li><a href="FAQ.html">FAQ</a></li>
+										<li><a href="account.html">Mon compte</a></li>
+									</ul>
+								<div class="clearfix"> </div>
+							</div>
+						</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- contact -->
+		<h3 class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 text-center" style="IDProduit">Tracker votre produit</h3>
+		<input type="text" class="ol-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 IDProduit" name="Name" placeholder="IDProduit" required="">
+		<!-- container -->
+		<div class="container">
+			<div id="map" class="map"></div>
+			 <!-- Replace the value of the key parameter with your own API key. -->
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMEgyOQn6bs7uNMiwVHZec39XzMJXCWSE&callback=initMap">
+			</script>
+			<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+	</div>
+	<!-- Tableau chaine production -->
+	</br>
+	<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+	<table class="table table-bordered table-hover">
+	  <thead>
+	    <tr>
+	      <th scope="col">Etape</th>
+	      <th scope="col">Producteur/Société</th>
+		  <th scope="col">Role</th>
+	      <th scope="col">Date</th>
+				<th scope="col">Transaction Blockchain</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th scope="row">A</th>
+	      <td>MR Roger Ver</td>
+		  <td>Producteur</td>
+	      <td>2018-02-10</td>
+				<td><a href="https://etherscan.io/">c48358jhu6523</a></td>
+	    </tr>
+	    <tr>
+	      <th scope="row">B</th>
+	      <td>Lactalis</td>
+		  <td>Transformateur</td>
+	      <td>2018-02-13</td>
+	      <td><a href="https://etherscan.io/">uhfizu652947uf</a></td>
+	    </tr>
+	    <tr>
+	      <th scope="row">C</th>
+	      <td>Casino Paris 17</td>
+		  <td>Distributeur</td>
+	      <td>2018-02-17</td>
+				<td><a href="https://etherscan.io/">ffhi5487631uh</a></td>
+	    </tr>
+	  </tbody>
+</table>
+</div>
+
+	<!-- //contact -->
+	<script src="js/SmoothScroll.min.js"></script>
+
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script src="js/get_trackingID_params.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+</html>
